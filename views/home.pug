@@ -1,0 +1,49 @@
+extend base.pug
+
+block script 
+    script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+                
+    section#introSection 
+        div  Welcome to Gyan Dance Academy 
+        div.small  Dance Dil Se
+
+    section#missionSection  
+       h2 Our mission
+       div.row
+           div.card 
+              h3 Dance Perfection
+              div.card-box
+                    div.card-img
+                        img(src="/static/img/d1.png")
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsa unde optio eum nostrum iste eius saepe iusto mollitia repudiandae.
+           div.card 
+              h3 All types of indian dance
+              div.card-box
+                    div.card-img
+                        img(src="/static/img/d2.png")
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsa unde optio eum nostrum iste eius saepe iusto mollitia repudiandae.
+           div.card 
+              h3 Expert Teaching for Grpou Dance
+              div.card-box
+                    div.card-img
+                        img(src="/static/img/d3.png")
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsa unde optio eum nostrum iste eius saepe iusto mollitia repudiandae.
+
+    section#sponsorsSection  
+       h2 Our Sponsors
+       div#sponsor
+            img(src="/static/img/s1.png", alt="sponser image" Class="spimage")
+            img(src="/static/img/s3.png", alt="sponser image" Class="spimage")
+            img(src="/static/img/s4.png", alt="sponser image" Class="spimage")
+            img(src="/static/img/s2.png", alt="sponser image" Class="spimage")
+
+    

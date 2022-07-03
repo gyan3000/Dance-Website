@@ -1,0 +1,35 @@
+.container{
+    min-height: 100vh;
+}
+.container h1{
+    margin-top: 8px;
+    text-align: center;
+    font-family: 'Supermercado One', cursive;
+}
+.myForm{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4px 4px;
+    align-items: center;
+}
+ 
+.myInput{
+    font-family: 'Supermercado One', cursive;
+    padding: 7px;
+    margin: 10px;
+    width: 40%;
+    border: 2px solid #c9a8ae;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.btn{
+    border: 2px solid #c9a8ae;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    color: #ca6868;
+    font-family: 'Supermercado One', cursive;
+    cursor: pointer;
+}
