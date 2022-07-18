@@ -5,7 +5,7 @@ const port = 800
 
 //express specific stuff
 app.use('/static', express.static('static'))//For serving static files
-app.use(express.urlencoded())
+app.use(express.urlencoded());
 
 // pug specific stuff
 app.set('view engine', 'pug')  // Set the template engine as pug
